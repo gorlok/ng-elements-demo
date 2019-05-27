@@ -8,7 +8,7 @@ Run `npm run build` to build the project.
 
 ## Running
 
-Run `npm serve` to execute http-server on http://localhost:8080
+Run `npm run serve` to execute http-server on http://localhost:8080
 
 ## NOTES
 
