@@ -3,10 +3,10 @@ const concat = require('concat');
 const compressing = require('compressing');
 (async function build() {
   const files = [
-    './dist/elements-demo/runtime.js',
-    './dist/elements-demo/polyfills.js',
+    './dist/elements-demo/runtime-es5.js',
+    './dist/elements-demo/polyfills-es5.js',
+    './dist/elements-demo/main-es5.js',
     './dist/elements-demo/scripts.js',
-    './dist/elements-demo/main.js',
   ];
   await concat(files, 'elements.js');
   await fs.copyFile('./dist/elements-demo/styles.css', 'styles.css');
