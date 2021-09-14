@@ -24,7 +24,7 @@
     "core-js": "^2.6.9",
     "document-register-element": "^1.13.2",
     "rxjs": "~6.5.2",
-    "set-value": "^3.0.1",
+    "set-value": "^4.0.1",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
